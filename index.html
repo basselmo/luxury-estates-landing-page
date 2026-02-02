@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Estate | Find Your Dream Home</title>
+    <link rel="icon" href="path-to-your-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">LUXE<span>ESTATE</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="btn-main">Book a Visit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Discover a Place You'll Love to Live</h1>
+        <p>Exclusive access to the most luxurious properties in the city</p>
+        <div class="hero-buttons">
+          <a href="#properties" class="btn-primary">View Properties</a>
+          <a href="#contact" class="btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <div class="feature-card">
+          <h3>Prime Locations</h3>
+          <p>Properties in the heart of the most vibrant districts.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Flexible Payments</h3>
+          <p>Installment plans tailored to your financial needs.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Premium Quality</h3>
+          <p>Modern designs with the highest building standards.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+          <div class="test-card">
+            <div class="client-info">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png"
+                alt="User Icon"
+                class="client-icon"
+              />
+              <div>
+                <h4>James Wilson</h4>
+                <span>Home Owner</span>
+              </div>
+            </div>
+            <p>
+              "The team helped me find the perfect apartment in record time.
+              Their attention to detail is unmatched!"
+            </p>
+            <div class="stars">★★★★★</div>
+          </div>
+
+          <div class="test-card">
+            <div class="client-info">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
+                alt="User Icon"
+                class="client-icon"
+              />
+              <div>
+                <h4>Conan Jenkins</h4>
+                <span>Investor</span>
+              </div>
+            </div>
+            <p>
+              "Highly professional service. They made the entire buying process
+              smooth and stress-free. Recommended!"
+            </p>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Inquire About a Property</h2>
+        <form
+          action="https://formspree.io/f/xeekrrvp"
+          method="POST"
+          id="inquiry-form"
+        >
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <select name="property_type">
+            <option value="apartment">Apartment</option>
+            <option value="villa">Villa</option>
+            <option value="office">Office Space</option>
+          </select>
+          <button type="submit" class="btn-primary">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <p>&copy; 2026 LUXE ESTATES. All rights reserved.</p>
+  </footer>
+</html>
