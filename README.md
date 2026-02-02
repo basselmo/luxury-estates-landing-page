@@ -3,7 +3,7 @@
 A modern, responsive, and high-conversion landing page designed for real estate agencies and property developers. 
 
 ## 🚀 Live Demo
-You can view the live website here: [**PUT_YOUR_GITHUB_PAGES_LINK_HERE**]
+You can view the live website here: [ https://basselmo.github.io/luxury-estates-landing-page/]
 
 ## ✨ Features
 * **Fully Responsive:** Works perfectly on Desktops, Tablets, and Mobile phones.
