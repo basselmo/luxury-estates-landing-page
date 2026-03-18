@@ -139,6 +139,7 @@ html {
 .feature-card {
   background: white;
   padding: 40px;
+  margin: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -147,6 +148,12 @@ html {
 
 .feature-card:hover {
   transform: translateY(-10px);
+}
+
+.feature-card img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
 }
 
 .feature-card h3 {
